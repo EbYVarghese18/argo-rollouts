@@ -18,6 +18,7 @@ spec:
     blueGreen:
       activeService: {{ template "myapp.fullname" . }}
       previewService: {{ template "myapp.fullname" . }}-preview
+      autoPromotionEnabled: false
       scaleDownDelaySeconds: 30
       scaleDownDelayRevisionLimit: 1
   template:
