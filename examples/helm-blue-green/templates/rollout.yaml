@@ -19,6 +19,8 @@ spec:
       activeService: {{ template "myapp.fullname" . }}
       previewService: {{ template "myapp.fullname" . }}-preview
       autoPromotionEnabled: false
+      manualPromotion:
+        # Wait for user input to promote the green environment
       scaleDownDelaySeconds: 30
       scaleDownDelayRevisionLimit: 1
   template:
