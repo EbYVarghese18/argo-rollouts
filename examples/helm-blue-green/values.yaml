@@ -5,7 +5,7 @@
 replicaCount: 5
 
 image:
-  repository: ebinvarghese/myapp-blue
+  repository: ebinvarghese/myapp-green
   tag: latest
   pullPolicy: IfNotPresent
 
